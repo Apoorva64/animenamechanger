@@ -1,2 +1,3 @@
 import animeletterchangerthing as yes
-yes.main(input('Give anime name: '))
+while True:
+    yes.main(input('Give anime name: '))
