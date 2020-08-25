@@ -20,7 +20,7 @@ def main(anime_name):
                 word_to_find = ''.join(new_word)
                 # print(word_to_find)
                 if word_to_find in english_words:
-                    new_name = name_words
+                    new_name = get_anime_name.split(' ')
                     new_name.pop(index)
                     new_name.insert(index, word_to_find)
                     print(' '.join(new_name))
